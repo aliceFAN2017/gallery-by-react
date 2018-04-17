@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "turn-arrow";
+  src: url("../fonts/icons/spinner11.eot") format("embedded-opentype"), url("../fonts/icons/spinner11.ttf") format("truetype"), url("../fonts/icons/spinner11.woff") format("woff"), url("../fonts/icons/spinner11.svg") format("svg");
+}
+
+.controller-unit {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #aaa;
+  border-radius: 50%;
+  margin: 0 5px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transform: scale(0.5);
+  transition: transform .6s ease-in-out background-color .3s;
+
+  @at-root {
+    .img-center {
+      background-color: #888;
+      transform: scale(1);
+
+      &::after {
+        color: #fff;
+        font-family: "turn-arrow";
+        font-size: 80%;
+        line-height: 30px;
+        content: "\e984";
+      }
+
+      &.img-flip {
+        background-color: #555;
+        transform: rotateY(180deg);
+      }
+    }
+  }
+}
