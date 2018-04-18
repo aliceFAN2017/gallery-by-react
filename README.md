@@ -10,4 +10,4 @@ Introduction:
        The rest images (except the ones in the center and top) are equally placed in the left and right sections individually
 5. The image in center is normally displayed, while the others displayed in the top, left, and right parts are randomly rotated with a degree from -30 to 30
 6. The image is displayed in the center when you click any image in the top, left, and right parts; And when you click the image in the center, then it is flipped between the front and back
-7. Corresponding controller unit is placed in the bottom. The focused controller unit (larger one with an arrow inside) means the image in the center. Flipped between the front and back of the image if you click it, otherwise, the corresponding image will be put into the center when you click any controller unit 
+7. Corresponding controller unit is placed in the bottom. The focused controller unit (larger one with an arrow inside) means the image is in the center currently, and it will be flipped between the front and back of the image if you click it. Otherwise, the corresponding image will be put into the center when you click any controller unit 
